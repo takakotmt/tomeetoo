@@ -84,15 +84,15 @@ h1, h2, h3, h4, h5, h6, figure {
   position: fixed;
   top: 0;
   margin: 0;
-  padding: 0;
+  /* padding: 0; */
   width: 100%;
-  padding: 20px 0;
+  /* padding: 20px 0; */
   z-index: 1001;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
 }
-@media screen and (max-width: 768px) {
+@media screen (min-width:576px) and (max-width: 960px) {
   .gtco-nav {
     padding: 20px 0;
   }
@@ -120,7 +120,7 @@ h1, h2, h3, h4, h5, h6, figure {
   -o-transition: 0.4s;
   transition: 0.4s;
 }
-@media screen and (max-width: 768px) {
+@media screen (min-width:576px) and (max-width: 1199px) {
   .gtco-nav .menu-1, .gtco-nav .menu-2 {
     display: none;
   }
@@ -309,12 +309,12 @@ h1, h2, h3, h4, h5, h6, figure {
   -o-transform: scale(1.1);
   transform: scale(1.1);
 }
-@media screen and (max-width: 480px) {
+@media screen (min-width:576px) and (max-width: 960px) {
   #gtco-hero .text-left {
     text-align: center !important;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen (min-width:576px) and (max-width: 960px) {
   #gtco-hero .btn {
     display: block;
     width: 100%;
@@ -425,7 +425,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
   z-index: 10;
 }
-@media screen and (max-width: 768px) {
+@media screen (min-width:576px) and (max-width: 960px) {
   .gtco-cover {
     height: 600px;
   }
@@ -436,7 +436,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: table;
   width: 100%;
 }
-@media screen and (max-width: 768px) {
+@media screen (min-width:576px) and (max-width: 960px) {
   .gtco-cover .display-t,
   .gtco-cover .display-tc {
     height: 600px;
@@ -445,7 +445,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .gtco-cover.gtco-cover-sm {
   height: 600px;
 }
-@media screen and (max-width: 768px) {
+@media screen (min-width:576px) and (max-width: 960px) {
   .gtco-cover.gtco-cover-sm {
     height: 400px;
   }
@@ -456,7 +456,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: table;
   width: 100%;
 }
-@media screen and (max-width: 768px) {
+@media screen (min-width:576px) and (max-width: 960px) {
   .gtco-cover.gtco-cover-sm .display-t,
   .gtco-cover.gtco-cover-sm .display-tc {
     height: 400px;
@@ -465,7 +465,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .gtco-cover.gtco-cover-xs {
   height: 500px;
 }
-@media screen and (max-width: 768px) {
+@media screen (min-width:576px) and (max-width: 960px) {
   .gtco-cover.gtco-cover-xs {
     height: inherit !important;
     padding: 3em 0;
@@ -477,7 +477,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: table;
   width: 100%;
 }
-@media screen and (max-width: 768px) {
+@media screen (min-width:576px) and (max-width: 960px) {
   .gtco-cover.gtco-cover-xs .display-t,
   .gtco-cover.gtco-cover-xs .display-tc {
     padding: 3em 0;
@@ -552,7 +552,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #gtco-practice-areas .gtco-practice-area-item .gtco-icon {
   /* width: 100px; */
 }
-@media screen and (max-width: 768px) {
+@media screen (min-width:576px) and (max-width: 960px) {
   #gtco-practice-areas .gtco-practice-area-item .gtco-icon {
     width: 70px;
   }
@@ -645,7 +645,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .heading h1 {
   margin-bottom: 10px;
 }
-@media screen and (max-width: 768px) {
+@media screen (min-width:576px) and (max-width: 960px) {
   .heading h1 {
     font-size: 26px;
   }
@@ -781,7 +781,7 @@ form label {
   line-height: 1.5;
   font-weight: 100;
 }
-@media screen and (max-width: 768px) {
+@media screen (min-width:576px) and (max-width: 960px) {
   #gtco-header .display-tc h1,
   .gtco-cover .display-tc h1 {
     font-size: 34px;
@@ -848,7 +848,7 @@ form label {
   zoom: 1;
   *display: inline;
 }
-@media screen and (max-width: 768px) {
+@media screen (min-width:576px) and (max-width: 960px) {
   #gtco-footer .copyright .pull-left,
   #gtco-footer .copyright .pull-right {
     float: none !important;
@@ -881,7 +881,7 @@ form label {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-@media screen and (max-width: 768px) {
+@media screen (min-width:576px) and (max-width: 960px) {
   #gtco-offcanvas {
     display: block;
   }
@@ -1083,7 +1083,7 @@ form label {
   z-index: 2001;
   border-bottom: none !important;
 }
-@media screen and (max-width: 768px) {
+@media screen (min-width:576px) and (max-width: 960px) {
   .gtco-nav-toggle {
     display: block;
   }
@@ -1104,7 +1104,7 @@ form label {
   transition: 0.5s;
   padding: 8px 30px;
 }
-.btn.btn-md {
+.btn.btn-lg {
   padding: 8px 20px !important;
 }
 .btn.btn-lg {
@@ -1274,11 +1274,11 @@ form label {
   font-size: 30px;
 }
 
-.row-pb-md {
+.row-pb-lg {
   padding-bottom: 2em !important;
 }
 
-.row-pb-sm {
+.row-pb-xs {
   padding-bottom: 2em !important;
 }
 
